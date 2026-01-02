@@ -68,6 +68,12 @@ footer {
   /*display: flex;*/
 
 }
+.site-logo {
+    width: 100%;   /* makes the logo span the full width of the header */
+    height: auto;  /* keeps the aspect ratio */
+    max-width: 100%; /* ensures it doesn’t exceed container */
+    display: block;  /* removes any inline spacing issues */
+}
 
 .header-container {
   max-width: 1200px;
