@@ -62,7 +62,7 @@ footer {
 }
 .site-header {
   background: #1B5E20;
-  padding: 10px 0;
+  padding: 12px 0;
 }
 
 .header-container {
@@ -115,4 +115,9 @@ footer {
   text-decoration: underline;
 }
 
+
+/* Prevent overlap with next section */
+body {
+  margin: 0;
+}
 
