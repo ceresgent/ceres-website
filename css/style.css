@@ -64,6 +64,9 @@ footer {
 .site-header {
   background: #1B5E20;
   padding: 12px 0;
+  min-height: 70px;
+  display: flex;
+  align-items: center;
 }
 
 .header-container {
