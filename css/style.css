@@ -69,7 +69,7 @@ footer {
 
 }
 .site-logo {
-  max-height: 50px;          /* Always fits inside header */
+  max-height: 64px;          /* Always fits inside header */
   width: auto;
 }
 
@@ -89,7 +89,7 @@ footer {
 }
 
 .brand img {
-  height: 50px;
+  height: 64px;
   margin-right: 12px;
 }
 
