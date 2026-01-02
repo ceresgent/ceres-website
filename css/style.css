@@ -64,14 +64,13 @@ footer {
 .site-header {
   background: #1B5E20;
   padding: 12px 0;
-  min-height: 70px;
+  height: 72px; 
   /*display: flex;*/
 
 }
 .site-logo {
-    height: 100%;   /* logo fits header height */
-    width: auto;    /* keeps aspect ratio */
-    max-height: 100%;
+  max-height: 50px;          /* Always fits inside header */
+  width: auto;
 }
 
 .header-container {
