@@ -125,6 +125,8 @@ footer {
 }
 
 .about-text p {
+  color: #1B5E20;              /* Green text */
+  font-family: "Montserrat", Arial, sans-serif;
   text-align: justify;
   margin-bottom: 18px;
   font-size: 15px;
