@@ -60,4 +60,59 @@ footer {
   text-align: center;
   padding: 25px;
 }
+.site-header {
+  background: #1B5E20;
+  padding: 10px 0;
+}
+
+.header-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* LEFT BRAND */
+.brand {
+  display: flex;
+  align-items: center;
+}
+
+.brand img {
+  height: 50px;
+  margin-right: 12px;
+}
+
+.brand-text {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+}
+
+.brand-name {
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+.brand-sub {
+  font-size: 12px;
+  opacity: 0.85;
+}
+
+/* RIGHT MENU */
+.main-nav a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.main-nav a:hover {
+  text-decoration: underline;
+}
+
 
