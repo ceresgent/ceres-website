@@ -119,5 +119,16 @@ footer {
   text-decoration: underline;
 }
 
+.about-text {
+  max-width: 900px;
+  margin: auto;
+}
+
+.about-text p {
+  text-align: justify;
+  margin-bottom: 18px;
+  font-size: 15px;
+  line-height: 1.7;
+}
 
 
