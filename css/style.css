@@ -143,4 +143,18 @@ footer {
   border-radius: 6px;
   margin-bottom: 12px;
 }
+.image-section {
+    display: flex;
+    flex-direction: row;      /* Side-by-side */
+    justify-content: center;  /* Center the group */
+    gap: 30px;                /* Space between images */
+    padding: 40px 80px;
+    page-break-inside: avoid; /* Keep on same PDF page */
+}
 
+.image-section img {
+    width: 48%;               /* Two images fit in one row */
+    height: auto;
+    border-radius: 6px;
+    display: block;
+}
