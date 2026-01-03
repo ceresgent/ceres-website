@@ -158,3 +158,20 @@ footer {
     border-radius: 6px;
     display: block;
 }
+.projects-horizontal {
+    display: flex;                /* side by side */
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;                   /* space between columns */
+    padding: 40px 80px;
+    page-break-inside: avoid;    /* PDF friendly */
+}
+
+.project-item {
+    width: 48%;                  /* two columns */
+    background: #fafafa;         /* light background optional */
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+}
+
