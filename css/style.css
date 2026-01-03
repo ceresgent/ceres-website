@@ -159,6 +159,7 @@ footer {
     display: block;
 }
 .projects-horizontal {
+    color: #1B5E20;              /* Green text */
     display: flex;                /* side by side */
     flex-direction: row;
     justify-content: space-between;
